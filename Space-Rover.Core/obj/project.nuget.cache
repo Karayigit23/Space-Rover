@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "xL5fXyU0V7edyKegeEHR1a2gSwCP+LHCRgl2LDZhqsEK3R6HWYV7nK5WcxBwhz8Y7bFmR/1bwx625tOSA1r0jg==",
+  "success": true,
+  "projectFilePath": "/Users/yigit/RiderProjects/Space-Rover/Space-Rover.Core/Space-Rover.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/yigit/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/Users/yigit/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/yigit/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "/Users/yigit/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0-preview.1.24080.9/microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.1.24080.9.nupkg.sha512",
+    "/Users/yigit/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.0-preview.1.24080.9/microsoft.extensions.logging.abstractions.9.0.0-preview.1.24080.9.nupkg.sha512",
+    "/Users/yigit/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/yigit/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.2.0 was resolved.",
+      "libraryId": "MediatR",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

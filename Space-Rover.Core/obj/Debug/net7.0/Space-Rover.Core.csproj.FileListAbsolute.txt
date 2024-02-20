@@ -1,0 +1,12 @@
+/Users/yigit/RiderProjects/Space-Rover/Space-Rover.Core/bin/Debug/net7.0/Space-Rover.Core.deps.json
+/Users/yigit/RiderProjects/Space-Rover/Space-Rover.Core/bin/Debug/net7.0/Space-Rover.Core.dll
+/Users/yigit/RiderProjects/Space-Rover/Space-Rover.Core/bin/Debug/net7.0/Space-Rover.Core.pdb
+/Users/yigit/RiderProjects/Space-Rover/Space-Rover.Core/obj/Debug/net7.0/Space-Rover.Core.csproj.AssemblyReference.cache
+/Users/yigit/RiderProjects/Space-Rover/Space-Rover.Core/obj/Debug/net7.0/Space-Rover.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yigit/RiderProjects/Space-Rover/Space-Rover.Core/obj/Debug/net7.0/Space-Rover.Core.AssemblyInfoInputs.cache
+/Users/yigit/RiderProjects/Space-Rover/Space-Rover.Core/obj/Debug/net7.0/Space-Rover.Core.AssemblyInfo.cs
+/Users/yigit/RiderProjects/Space-Rover/Space-Rover.Core/obj/Debug/net7.0/Space-Rover.Core.csproj.CoreCompileInputs.cache
+/Users/yigit/RiderProjects/Space-Rover/Space-Rover.Core/obj/Debug/net7.0/Space-Rover.Core.dll
+/Users/yigit/RiderProjects/Space-Rover/Space-Rover.Core/obj/Debug/net7.0/refint/Space-Rover.Core.dll
+/Users/yigit/RiderProjects/Space-Rover/Space-Rover.Core/obj/Debug/net7.0/Space-Rover.Core.pdb
+/Users/yigit/RiderProjects/Space-Rover/Space-Rover.Core/obj/Debug/net7.0/ref/Space-Rover.Core.dll

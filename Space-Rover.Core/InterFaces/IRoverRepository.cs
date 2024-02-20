@@ -8,5 +8,5 @@ public interface IRoverRepository
     Task<List<Rover>> GetAllRover();
     Task AddRover(Rover rover);
     Task UpdateRover(Rover rover);
-    Task DeleteRover(int id);
+    Task DeleteRover(Rover id);
 }

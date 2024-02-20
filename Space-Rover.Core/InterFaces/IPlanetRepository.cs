@@ -8,5 +8,5 @@ public interface IPlanetRepository
     Task<List<Planet>> GetAllPlanet();
     Task AddAsync(Planet planet);
     Task UpdatePlanet(Planet planet);
-    Task DeletePlanet(int id);
+    Task DeletePlanet(Planet id);
 }

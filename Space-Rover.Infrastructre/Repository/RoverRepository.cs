@@ -4,11 +4,11 @@ using Space_Rover.Core.InterFaces;
 
 namespace Space_Rover.Infrastructr.Repositories;
 
-public class RoverRepositories:IRoverRepository
+public class RoverRepository:IRoverRepository
 {
     private readonly AppDbContext _dbContex;
 
-    public RoverRepositories(AppDbContext dbContext)
+    public RoverRepository(AppDbContext dbContext)
     {
         _dbContex = dbContext;
 

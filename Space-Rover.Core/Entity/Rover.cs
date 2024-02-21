@@ -20,13 +20,6 @@ public class Rover
         LookingDirection = Direction.North;
     }
     
-    public void Move(Direction direction)
-    {
-        var momentManager = new MomentManager();
-        momentManager.Move(this, direction);
-    }
-
-    
     
     
     public string GetCurrentLocation()

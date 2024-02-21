@@ -21,7 +21,7 @@ public class GetByIdRoverHandler : IRequestHandler<GetByIdRover, Entity.Rover>
     public async Task<Entity.Rover> Handle(GetByIdRover request, CancellationToken cancellationToken)
     {
   
-        _logger.LogInformation(message:$"{request.Id} User came");
+        _logger.LogInformation(message:$"{request.Id} Rover came");
         var result = await _roverRepository.GetByIdRover(request.Id);
         /*if (result==null)
         {

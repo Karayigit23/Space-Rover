@@ -22,7 +22,7 @@ public class PlanetRepository:IPlanetRepository
         return await _dbContext.Planet.ToListAsync();
     }
 
-    public async Task AddAsync(Planet planet)
+    public async Task AddPlanet(Planet planet)
     {
         _dbContext.Planet.AddAsync(planet);
         await _dbContext.SaveChangesAsync();

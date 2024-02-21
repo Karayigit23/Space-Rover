@@ -8,9 +8,8 @@ public class Planet
     public int Width { get; set; }
     public int Height { get; set; }
 
-    public Planet(int width, int height)
-    {
-        Width = width;
-        Height = height;
-    }
+   
+
+  
+    
 }

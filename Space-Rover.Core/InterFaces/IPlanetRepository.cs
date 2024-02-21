@@ -6,7 +6,7 @@ public interface IPlanetRepository
 {
     Task<Planet> GetByIdPlanet(int id);
     Task<List<Planet>> GetAllPlanet();
-    Task AddAsync(Planet planet);
+    Task AddPlanet(Planet planet);
     Task UpdatePlanet(Planet planet);
     Task DeletePlanet(Planet id);
 }

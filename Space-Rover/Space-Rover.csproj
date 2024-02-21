@@ -9,11 +9,15 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.16" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0-preview.1.24080.9" />
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.0-preview.1.24080.9" />
+        <PackageReference Include="NSwag.AspNetCore" Version="14.0.3" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\" />
+      <ProjectReference Include="..\Space-Rover.Core\Space-Rover.Core.csproj" />
+      <ProjectReference Include="..\Space-Rover.Infrastructre\Space-Rover.Infrastructre.csproj" />
     </ItemGroup>
 
 </Project>

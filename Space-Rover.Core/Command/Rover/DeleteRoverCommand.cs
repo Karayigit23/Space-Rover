@@ -15,7 +15,7 @@ public class DeleteRoverCommandHandler : IRequestHandler<DeleteRoverCommand>
     {
         _roverRepository = roverRepository;
     }
-    public async Task Handle(DeleteRoverCommand request, CancellationToken cancellationToken)
+    public async Task<Unit> Handle(DeleteRoverCommand request, CancellationToken cancellationToken)
     {
         var Rover = await _roverRepository.GetByIdRover(request.Id);
        
@@ -25,5 +25,6 @@ public class DeleteRoverCommandHandler : IRequestHandler<DeleteRoverCommand>
         }*/
        
         await _roverRepository.DeleteRover(Rover);
+        return Unit.Value;
     }
 }

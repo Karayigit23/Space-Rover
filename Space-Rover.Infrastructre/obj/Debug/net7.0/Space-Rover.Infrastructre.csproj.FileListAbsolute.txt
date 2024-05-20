@@ -10,3 +10,6 @@
 /Users/yigit/RiderProjects/Space-Rover/Space-Rover.Infrastructre/obj/Debug/net7.0/refint/Space-Rover.Infrastructre.dll
 /Users/yigit/RiderProjects/Space-Rover/Space-Rover.Infrastructre/obj/Debug/net7.0/Space-Rover.Infrastructre.pdb
 /Users/yigit/RiderProjects/Space-Rover/Space-Rover.Infrastructre/obj/Debug/net7.0/ref/Space-Rover.Infrastructre.dll
+/Users/yigit/RiderProjects/Space-Rover/Space-Rover.Infrastructre/bin/Debug/net7.0/Space-Rover.Core.dll
+/Users/yigit/RiderProjects/Space-Rover/Space-Rover.Infrastructre/bin/Debug/net7.0/Space-Rover.Core.pdb
+/Users/yigit/RiderProjects/Space-Rover/Space-Rover.Infrastructre/obj/Debug/net7.0/Space-Ro.3EDF86B8.Up2Date

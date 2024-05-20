@@ -1,6 +1,8 @@
+using Space_Rover.Core.InterFaces;
+
 namespace Space_Rover.Core.Entity;
 
-public class MomentManager
+public class MomentManager : IMomentManager
 {
     public void MoveNorth(Rover rover )
     {
@@ -55,7 +57,7 @@ public class MomentManager
         }
     }
     
-    public void Move(Rover rover,Direction direction)
+    public void Move(Rover rover, Direction direction)
     {
         switch (direction)
         {
@@ -72,7 +74,7 @@ public class MomentManager
                 MoveWest(rover);
                 break;
             default:
-                break;
+                throw new InvalidOperationException("Invalid direction.");
         }
     }
 }

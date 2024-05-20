@@ -7,11 +7,18 @@ public class AppDbContext:DbContext
 {
    
   
-        public AppDbContext(DbContextOptions options):base (options)
+        public AppDbContext(DbContextOptions<AppDbContext> options):base (options)
         {
         }
-        public DbSet<Rover> Rover { get; set; }
-        public DbSet<Planet>Planet { get; set; }
+        public DbSet<Rover> Rovers { get; set; }
+        public DbSet<Planet>Planets { get; set; }
+        
+        
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+              
+             
+        } 
    
 }
 

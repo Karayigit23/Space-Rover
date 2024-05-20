@@ -18,29 +18,29 @@ public class RoverRepository:IRoverRepository
     
     public async Task<Rover> GetByIdRover(int id)
     {
-        return await _dbContex.Rover.FindAsync(id);
+        return await _dbContex.Rovers.FindAsync(id);
     }
 
     public async Task<List<Rover>> GetAllRover()
     {
-        return await _dbContex.Rover.ToListAsync();
+        return await _dbContex.Rovers.ToListAsync();
     }
 
     public async Task AddRover(Rover rover)
     { 
-        _dbContex.Rover.AddAsync(rover);
+        _dbContex.Rovers.AddAsync(rover);
         await _dbContex.SaveChangesAsync();
     }
 
     public async Task UpdateRover(Rover rover)
     {
-        _dbContex.Rover.Update(rover);
+        _dbContex.Rovers.Update(rover);
         await _dbContex.SaveChangesAsync();
     }
 
     public async Task DeleteRover(Rover id)
     {
-        _dbContex.Rover.Remove(id);
+        _dbContex.Rovers.Remove(id);
         await _dbContex.SaveChangesAsync();
     }
 

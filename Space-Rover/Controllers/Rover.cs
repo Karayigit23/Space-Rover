@@ -40,6 +40,7 @@ public class Rover : ControllerBase
    [HttpPut("{Id}")]
    public async Task UpdateRover(int Id, [FromBody] UpdateRoverCommand rover)
    {
+      
       rover.ıd = Id;
       await _mediator.Send(rover);
    }

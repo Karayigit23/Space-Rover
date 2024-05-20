@@ -22,9 +22,9 @@ public class Planet : ControllerBase
         return Planet;
     }
     [HttpGet("{planetId}")]
-    public async Task<Core.Entity.Planet> GetByIdPlanet(int Id)
+    public async Task<Core.Entity.Planet> GetByIdPlanet(int planetId)
     {
-        var Planet= await _mediator.Send(request: new GetByIdPlanetQuery() { Id = Id });
+        var Planet= await _mediator.Send(request: new GetByIdPlanetQuery() { Id = planetId });
         return Planet;
     }
     [HttpPost]

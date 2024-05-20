@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Space-Rover")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e22c23da050b0eaeeacf2826402d86d4eaabc715")]
 [assembly: System.Reflection.AssemblyProductAttribute("Space-Rover")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Space-Rover")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

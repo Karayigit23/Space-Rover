@@ -17,7 +17,7 @@ public class DeletePlanetCommandHandler : IRequestHandler<DeletePlanetCommand>
     {
         _planetRepository = planetRepository;
     }
-    public async Task Handle(DeletePlanetCommand request, CancellationToken cancellationToken)
+    public async Task<Unit> Handle(DeletePlanetCommand request, CancellationToken cancellationToken)
     {
         var Planet = await _planetRepository.GetByIdPlanet(request.Id);
         
@@ -27,6 +27,8 @@ public class DeletePlanetCommandHandler : IRequestHandler<DeletePlanetCommand>
          }*/
 
         await _planetRepository.DeletePlanet(Planet);
+        
+        return Unit.Value;
 
 
     }

@@ -32,10 +32,11 @@ public class CreateRoverHandler : IRequestHandler<CreateRoverCommand, Entity.Rov
         {
             RoverName = request.RoverName,
             PlanetSurfaceId = request.PlanetSurfaceId,
-            X = request.X,
-            Y = request.Y,
-            LookingDirection = request.LookingDirection
+            //X = request.X,
+            // Y = request.Y,
+            //LookingDirection = request.LookingDirection
         };
+       
         await _roverRepository.AddRover(rover);
         return rover;
     }

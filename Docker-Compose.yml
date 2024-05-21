@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: space_rover_web
+    ports:
+      - "8080:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+      - db
+
+  db:
+    image: mcr.microsoft.com/mssql/server
+    container_name: space_rover_db
+    environment:
+      SA_PASSWORD: "MyPass@word"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"

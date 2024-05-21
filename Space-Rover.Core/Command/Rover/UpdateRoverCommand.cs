@@ -9,9 +9,7 @@ public class UpdateRoverCommand:IRequest<Entity.Rover>
     public int ıd { get; set; }
     public string RoverName { get; set; }
     public int PlanetSurfaceId { get; set; }
-    public int X { get; set; }
-    public int Y { get; set; }
-    public Direction LookingDirection { get; set; }
+    
 
 }
 
@@ -29,9 +27,7 @@ public class UpdateRoverCommandHandler : IRequestHandler<UpdateRoverCommand, Ent
 
         rover.RoverName = request.RoverName;
         rover.PlanetSurfaceId = request.PlanetSurfaceId;
-        rover.X = request.X;
-        rover.Y = request.Y;
-        rover.LookingDirection = request.LookingDirection;
+        
 
         await _roverRepository.UpdateRover(rover);
         return rover;

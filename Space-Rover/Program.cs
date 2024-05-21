@@ -25,7 +25,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//builder.Services.AddDbContext<AppDbContext>(p => p.UseSqlServer(builder.Configuration.GetValue<string>("DefaultConnection")));
+
 
 var app = builder.Build();
 

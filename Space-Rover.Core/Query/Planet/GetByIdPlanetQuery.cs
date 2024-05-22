@@ -23,11 +23,11 @@ public class GetByIdPlanetQueryHandler : IRequestHandler<GetByIdPlanetQuery, Ent
     {
         _logger.LogInformation(message:$"{request.Id} Planet came");
         var Planet = await _planetRepository.GetByIdPlanet(request.Id);
-        /*if (result==null)
-       {
-  
-           throw new NotFoundException($"user not found userId: {request.Id}");   //buraya exaption handler konulabilir
-       }*/
+        if (Planet == null)
+        {
+            _logger.LogWarning(message:$"Planet with ID {request.Id} not found.");
+
+        }
         return Planet;
     }
 }

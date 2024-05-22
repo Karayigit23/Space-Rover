@@ -1,4 +1,5 @@
 using MediatR;
+using Microsoft.Extensions.Logging;
 using Space_Rover.Core.InterFaces;
 
 namespace Space_Rover.Core.Command.Rover;
@@ -10,21 +11,27 @@ public class DeleteRoverCommand:IRequest
 public class DeleteRoverCommandHandler : IRequestHandler<DeleteRoverCommand>
 {
     private readonly IRoverRepository _roverRepository;
+    private readonly ILogger<DeleteRoverCommandHandler> _logger;
 
-    public DeleteRoverCommandHandler(IRoverRepository roverRepository)
+
+    public DeleteRoverCommandHandler(IRoverRepository roverRepository, ILogger<DeleteRoverCommandHandler> logger)
     {
         _roverRepository = roverRepository;
+        _logger = logger;
     }
     public async Task<Unit> Handle(DeleteRoverCommand request, CancellationToken cancellationToken)
     {
+        _logger.LogInformation(message:"Rover Deleted");
         var Rover = await _roverRepository.GetByIdRover(request.Id);
        
-       /* if (User == null)
+        if (Rover == null)
         {
-            throw new NotFoundException($"User with ID {request.Id} not found.");           //Buraya null gelme durumda atılan bir exception koy
-        }*/
+            _logger.LogWarning("Attempted to delete non-existing rover: {RoverId}", request.Id);
+            return Unit.Value;
+        }
        
         await _roverRepository.DeleteRover(Rover);
+        _logger.LogInformation("Rover deleted: {RoverId}", request.Id);
         return Unit.Value;
     }
 }

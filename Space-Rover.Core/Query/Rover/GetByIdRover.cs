@@ -23,11 +23,11 @@ public class GetByIdRoverHandler : IRequestHandler<GetByIdRover, Entity.Rover>
   
         _logger.LogInformation(message:$"{request.Id} Rover came");
         var result = await _roverRepository.GetByIdRover(request.Id);
-        /*if (result==null)
+        if (result == null)
         {
-   
-            throw new NotFoundException($"user not found userId: {request.Id}");   //buraya exaption handler konulabilir
-        }*/
+            _logger.LogWarning(message:$"Rover with ID {request.Id} not found.");
+
+        }
 
         return result;
     }

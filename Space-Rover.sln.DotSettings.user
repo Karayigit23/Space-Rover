@@ -1,4 +1,18 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
   &lt;Assembly Path="/Users/yigit/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll" /&gt;
-&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=03ca6c89_002D3af4_002D4a96_002D910f_002D11f585d5ae07/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Or&gt;
+    &lt;ProjectFile&gt;8157AFCA-5B40-4C26-8CC9-5510D321D0E6/d:Core/d:Command/d:Rover_Command/f:DeleteRoverCommandHandlerTest.cs&lt;/ProjectFile&gt;
+    &lt;ProjectFile&gt;8157AFCA-5B40-4C26-8CC9-5510D321D0E6/d:Core/d:Command/d:Rover_Command/f:UpdateRoverCommandHandlerTest.cs&lt;/ProjectFile&gt;
+    &lt;ProjectFile&gt;8157AFCA-5B40-4C26-8CC9-5510D321D0E6/d:Core/d:Command/d:Planet_Command/f:CreatePlanetCommandHandlerTest.cs&lt;/ProjectFile&gt;
+    &lt;ProjectFile&gt;8157AFCA-5B40-4C26-8CC9-5510D321D0E6/d:Core/d:Command/d:Planet_Command/f:DeletePlanetCommandHandlerTest.cs&lt;/ProjectFile&gt;
+    &lt;ProjectFile&gt;8157AFCA-5B40-4C26-8CC9-5510D321D0E6/d:Core/d:Command/d:Planet_Command/f:UpdatePlanetCommandHandlerTest.cs&lt;/ProjectFile&gt;
+    &lt;ProjectFile&gt;8157AFCA-5B40-4C26-8CC9-5510D321D0E6/d:Core/d:Query/d:Rover_Query/f:GetAllRoverQueryHandlerTest.cs&lt;/ProjectFile&gt;
+    &lt;ProjectFile&gt;8157AFCA-5B40-4C26-8CC9-5510D321D0E6/d:Core/d:Query/d:Rover_Query/f:GetByIdRoverQueryHandlerTest.cs&lt;/ProjectFile&gt;
+    &lt;ProjectFile&gt;8157AFCA-5B40-4C26-8CC9-5510D321D0E6/d:Core/d:Query/d:Planet_Query/f:GetAllPlanetQueryHandlerTest.cs&lt;/ProjectFile&gt;
+    &lt;ProjectFile&gt;8157AFCA-5B40-4C26-8CC9-5510D321D0E6/d:Core/d:Query/d:Planet_Query/f:GetByIdPlanetQueryHandlerTest.cs&lt;/ProjectFile&gt;
+    &lt;ProjectFile&gt;8157AFCA-5B40-4C26-8CC9-5510D321D0E6/d:Core/f:MomentManagerTest.cs&lt;/ProjectFile&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

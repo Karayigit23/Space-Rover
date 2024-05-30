@@ -7,8 +7,6 @@ public class MomentManager : IMomentManager
     public void MoveNorth(Rover rover )
     {
         if (rover.LookingDirection==Direction.North)
-            
-            
         {
            rover.Y += 1;
 				

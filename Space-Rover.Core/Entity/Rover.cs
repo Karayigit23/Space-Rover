@@ -1,6 +1,6 @@
 namespace Space_Rover.Core.Entity;
 
-//önce rover oluştur luşturduğun rovera Id ile Moment controllera eriş 
+
 public class Rover
 {
     public int RoverId { get; set; }
@@ -13,7 +13,7 @@ public class Rover
 
 
 
-    public Rover() //arac her zaman 0,0 ve kuzeye bakarak oluşmalı
+    public Rover() 
     {
         X = 0;
         Y = 0;

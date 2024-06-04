@@ -1,7 +1,7 @@
 
-# Auto Showroom
+# Space-Rover
 
-Welcome to the Auto Showroom repository! This is a web application for managing a virtual auto showroom, built using .NET Core and MSSQL, and containerized with Docker Compose. This README file provides information on how to set up and run the application using Docker Compose.
+Welcome to the Space-Rover repository! This is a web application for managing a virtual space-Rover, built using .NET Core and MSSQL, and containerized with Docker Compose. This README file provides information on how to set up and run the application using Docker Compose.
 
 ## Prerequisites
 

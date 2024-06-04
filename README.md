@@ -5,7 +5,7 @@ Welcome to the Space-Rover repository! This is a web application for managing a 
 
 ## Prerequisites
 
-Before running the Auto Showroom application, you need to have the following software installed on your machine:
+Before running the Space-Rover application, you need to have the following software installed on your machine:
 
 - Docker: The application is containerized using Docker Compose, so you need to have Docker installed on your machine. You can download and install Docker from the official Docker website: https://www.docker.com/products/docker-desktop
 
